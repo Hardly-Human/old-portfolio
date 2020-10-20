@@ -6,11 +6,12 @@
 */
 
 .ct-btn-scroll {
+    text-align: center;
     width: 49px;
     height: 49px;
     position: absolute;
     bottom: 10%;
-    left: 300px;
+    left: 0;
     right: 0;
     margin: auto;
     padding-top: 50px;
