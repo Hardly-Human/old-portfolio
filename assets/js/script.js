@@ -1,16 +1,4 @@
-/* 
- * 3D FLOATING TYPO
- * Made with ThreeJS - Enjoy!
- * https://threejs.org/
- *
- * Move the cursor to zoom in/out and float around the cubed space.
- * On mobile touch + drag screen to zoom in/out and float.
- *
- * Inspired by one of the ThreeJS examples in documentation.
- *
- * #014 - #100DaysOfCode
- * By ilithya | 2019
- */
+
 
 const nearDist = 0.1;
 const farDist = 10000;
