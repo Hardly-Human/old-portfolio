@@ -463,6 +463,20 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.button {
+  background: white;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 12px;
+  border: 2px solid #37b3ed;
+  position: absolute; 
+  right: 0;
+}
+.button:hover {
+  background: #0b090a;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
