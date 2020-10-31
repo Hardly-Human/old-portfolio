@@ -233,11 +233,20 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url("../img/hero-bg.jpg");
   background-size: cover;
 }
+
 @media 
   (-webkit-min-device-pixel-ratio: 2), 
   (min-resolution: 192dpi) { 
   #hero {
     background-image: url("../img/hero-bg-2.jpg");
+  }
+}
+
+@media 
+  /*(-webkit-min-device-pixel-ratio: 2), */
+  (min-width: 1390px ) { 
+  #hero {
+    background-image: url("../img/hero-bg-3.jpg");
   }
 }
 
