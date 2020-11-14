@@ -1,4 +1,44 @@
+/*------------------------------------------
+Pre-loader
+--------------------------------------------*/
+.loader-wrapper{
+  height: 100%;
+  width: 100%;
+  background:#14213d;
+  position: fixed;
+}
 
+figure{margin:0;transform:translate(-50%,-50%) rotate(0deg) scale(1.4,1.4);position:absolute;left:50%;top:50%;border-radius:150px;box-sizing:border-box;animation:rotation 20s infinite linear;}
+
+figure div:after{content:"";width:20px;height:20px;border:1px solid #fca311;box-sizing:border-box;position:absolute;left:20px;top:20px;animation:shuffle 2s infinite;}
+
+figure div:nth-child(1){transform:rotate(0deg)}
+figure div:nth-child(1):after{animation-delay:-0.5s;}
+figure div:nth-child(2){transform:rotate(45deg)}
+figure div:nth-child(2):after{animation-delay:-1s;}
+figure div:nth-child(3){transform:rotate(90deg)}
+figure div:nth-child(3):after{animation-delay:-1.5s;}
+figure div:nth-child(4){transform:rotate(135deg)}
+figure div:nth-child(4):after{animation-delay:-2s;}
+figure div:nth-child(5){transform:rotate(180deg)}
+figure div:nth-child(5):after{animation-delay:-2.5s;}
+figure div:nth-child(6){transform:rotate(225deg)}
+figure div:nth-child(6):after{animation-delay:-3s;}
+figure div:nth-child(7){transform:rotate(270deg)}
+figure div:nth-child(7):after{animation-delay:-3.5s;}
+figure div:nth-child(8){transform:rotate(315deg)}
+figure div:nth-child(8):after{animation-delay:-4;}
+
+@keyframes rotation{
+  100%{transform:translate(-50%,-50%) rotate(-360deg) scale(1.4,1.4);}
+}
+@keyframes shuffle{
+  50%{transform:scale(0.4,0.4) rotate(-90deg);border-radius:50%;}
+}
+
+/*--------------------------------------------
+Scroll down button
+----------------------------------------------*/
 .ct-btn-scroll {
     text-align: center;
     width: 49px;
@@ -463,6 +503,20 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.button {
+  background: white;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 12px;
+  border: 2px solid #37b3ed;
+  position: absolute; 
+  right: 0;
+}
+.button:hover {
+  background: #0b090a;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
