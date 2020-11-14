@@ -190,10 +190,13 @@ or at least read this note: http://i.imgur.com/7C0ws9e.gif
     position: relative;
     overflow: hidden;
     padding: 20px 4%;
+
 }
 .vbox-container img{
     max-width: 100%;
     height: auto;
+
+
 }
 .vbox-figlio{
     box-shadow: 0 0 12px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -206,6 +209,7 @@ img.vbox-figlio{
 -moz-user-select: none;
 -o-user-select: none;
 user-select: none;
+
 }
 .vbox-content.swipe-left{
     margin-left: -200px !important;
