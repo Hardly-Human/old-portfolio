@@ -96,6 +96,12 @@
     return false;
   });
 
+  history.scrollRestoration = "manual";
+
+  $(window).on('beforeunload', function(){
+        $(window).scrollTop(0);
+  });
+
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
