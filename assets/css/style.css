@@ -1153,11 +1153,30 @@ section {
 }
 
 #footer .credits {
-  padding-top: 5px;
   text-align: center;
   font-size: 13px;
   color: #eaebf0;
 }
+
+#footer .forms {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 13px;
+  text-align: center;
+  color: #eaebf0;
+}
+
+#footer .feedback_form {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+#footer .report_issue:after{
+  width: 50%;
+  text-align: center;
+}
+
 
 @media (max-width: 1199px) {
   #footer {
