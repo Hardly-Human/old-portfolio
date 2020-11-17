@@ -1153,6 +1153,7 @@ section {
 }
 
 #footer .credits {
+  padding-top: 5px;
   text-align: center;
   font-size: 13px;
   color: #eaebf0;
