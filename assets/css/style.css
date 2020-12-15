@@ -621,7 +621,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  border: 3px solid #040b14;
+  border: 2px solid #040b14;
   border-radius: 12px;
 }
 
@@ -836,9 +836,10 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: #fdd3d3;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
 }
 
 .contact .info i {
@@ -906,8 +907,9 @@ section {
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
-  background: #fff;
+  background: #fff3b0;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
 }
 
 .contact .php-email-form .form-group {
@@ -964,10 +966,12 @@ section {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  border-radius: 20px;
 }
 
 .contact .php-email-form input {
   height: 44px;
+  border-radius: 20px;
 }
 
 .contact .php-email-form textarea {
