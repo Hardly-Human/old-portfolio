@@ -621,6 +621,8 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  border: 3px solid #040b14;
+  border-radius: 12px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -692,7 +694,7 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #040b14;
   border-radius: 50%;
   transition: 0.5s;
   border: 1px solid #149ddd;
@@ -841,11 +843,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #ffffff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #040b14;
   display: flex;
   justify-content: center;
   align-items: center;
