@@ -290,6 +290,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media 
+  /*(-webkit-min-device-pixel-ratio: 2), */
+  (min-width: 300px ) and (max-width: 736px){ 
+  #hero {
+    background-image: url("../img/hero-bg-2.jpg");
+  }
+}
+
 #hero:before {
   content: "";
   /*background: rgba(5, 13, 24, 0.3);*/
