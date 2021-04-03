@@ -662,7 +662,7 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: rgb(4 11 20);
   transition: 0.3s;
   width: 100%;
 }
