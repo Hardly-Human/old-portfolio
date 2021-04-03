@@ -844,10 +844,11 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fdd3d3;
+  background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   border-radius: 20px;
+  border: 2px solid black;
 }
 
 .contact .info i {
